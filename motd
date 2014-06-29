@@ -1,0 +1,8 @@
+Welcome to Python on Enterprise Linux.
+
+To get started, enable Python 3 and PostgreSQL 9 in the shell:
+	$ scl enable python33 postgresql92 bash
+
+then activate the pre-built virtualenv:
+	$ cd /usr/local/dev && source bin/activate
+
